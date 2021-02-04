@@ -1,3 +1,3 @@
 # Topicos-Ejercicios
 
-![ScreenShot](https://github.com/JeffersonCaiza/Topicos-CRUD/blob/main/1.jpg?raw=true)
+![ScreenShot](https://github.com/JeffersonCaiza/Topicos-Ejercicios/blob/main/1.PNG?raw=true)
