@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8A8181"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine3"
+        android:layout_width="707dp"
+        android:layout_height="924dp"
+        android:autoText="false"
+        android:background="#C4CF59"
+        android:ems="10"
+        android:gravity="center|start|center_horizontal|fill_horizontal|top|left"
+        android:inputType="textMultiLine"
+        android:text="Escribe el Texto Aqui!!"
+        android:textSize="30sp"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="567dp"
+        android:layout_height="143dp"
+        android:autoText="false"
+        android:background="#9D8D9F"
+        android:onClick="grabar"
+        android:text="Guardar"
+        android:textSize="36sp"
+        app:backgroundTint="#B5B53C"
+        tools:layout_editor_absoluteX="117dp"
+        tools:layout_editor_absoluteY="1050dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="664dp"
+        android:layout_height="60dp"
+        android:background="#B8CA64"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Nombre: Bryan OLivares, Eduardo Caiza"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="30dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
